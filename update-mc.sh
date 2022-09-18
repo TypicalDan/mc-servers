@@ -11,8 +11,8 @@ echo "Removing old files..."
 sudo rm /home/minecraft/mc-servers -r
 echo "Cleared repository destination!"
 sudo rm /home/minecraft/servers/Purpurfall_V6/Waterfall/waterfall.jar
-sudo rm /home/minecraft/servers/Purpurfall_V6/Survival/purpur.jar
-sudo rm /home/minecraft/servers/Purpurfall_V6/Creative/purpur.jar
+sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/purpur.jar
+sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurCreative/purpur.jar
 echo "Cleared old jars!"
 sudo rm /home/minecraft/servers/Purpurfall_V6/Waterfall/plugins -r
 sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/plugins -r
