@@ -52,7 +52,7 @@ sudo ls /home/minecraft/mc-servers/datapacks
 echo "Moving .jar files..."
 sudo mv /home/minecraft/mc-servers/jars/waterfall/$waterfallName /home/minecraft/servers/Purpurfall_V6/Waterfall/waterfall.jar
 echo "Moved waterfall .jar!"
-sudo cp -r /home/minecraft/mc-servers/jars/purpur/$purpurName /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/purpur.jar
+sudo cp /home/minecraft/mc-servers/jars/purpur/$purpurName /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/purpur.jar
 echo "Moved survival .jar!"
 sudo mv /home/minecraft/mc-servers/jars/purpur/$purpurName /home/minecraft/servers/Purpurfall_V6/PurpurCreative/purpur.jar
 echo "Moved creative .jar!"
