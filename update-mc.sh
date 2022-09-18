@@ -8,7 +8,7 @@ echo "Finished system updates!"
 
 # Old file removal
 echo "Removing old files..."
-sudo rm /home/minecraft/mc-servers -r
+sudo rm -r /home/minecraft/mc-servers
 echo "Cleared repository destination!"
 sudo rm /home/minecraft/servers/Purpurfall_V6/Waterfall/waterfall.jar
 sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/purpur.jar
