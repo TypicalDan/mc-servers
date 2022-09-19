@@ -74,8 +74,8 @@ echo "Moved creative datapacks!"
 
 # Moving .sh files to the proper places
 sudo mv /home/minecraft/mc-servers/startCreative.sh /home/minecraft/startCreative.sh
-sudo mv /home/minecraft/mc-servers/startSurvival.sh /home/minecraftstartSurvival.sh
-sudo mv /home/minecraft/mc-servers/startWaterfall.sh /home/minecraftstartWaterfall.sh
+sudo mv /home/minecraft/mc-servers/startSurvival.sh /home/minecraft/startSurvival.sh
+sudo mv /home/minecraft/mc-servers/startWaterfall.sh /home/minecraft/startWaterfall.sh
 
 echo "Sorting permissions..."
 sudo chown -R :mc /home/minecraft/servers/Purpurfall_V6
