@@ -8,7 +8,7 @@ echo "Finished system updates!"
 
 # Old file removal
 echo "Removing old files..."
-rm -r /home/minecraft/mc-servers
+sudo rm -r /home/minecraft/mc-servers
 echo "Cleared repository destination!"
 rm /home/minecraft/servers/Purpurfall_V6/Waterfall/waterfall.jar
 rm /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/purpur.jar
@@ -59,23 +59,23 @@ echo "Moved creative .jar!"
 
 # Moving plugins across
 echo "Moving plugins..."
-mv /home/minecraft/mc-servers/plugins/waterfall /home/minecraft/servers/Purpurfall_V6/Waterfall/plugins
+mv /home/minecraft/mc-servers/plugins/waterfall/*.jar /home/minecraft/servers/Purpurfall_V6/Waterfall/plugins/*.jar
 echo "Moved waterfall plugins!"
-mv /home/minecraft/mc-servers/plugins/survival /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/plugins
+mv /home/minecraft/mc-servers/plugins/survival/*.jar /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/plugins
 echo "Moves survival plugins!"
-mv /home/minecraft/mc-servers/plugins/creative /home/minecraft/servers/Purpurfall_V6/PurpurCreative/plugins
+mv /home/minecraft/mc-servers/plugins/creative/*.jar /home/minecraft/servers/Purpurfall_V6/PurpurCreative/plugins
 
 # Moving datapacks across
 echo "Moving datapacks..."
-cp -r /home/minecraft/mc-servers/datapacks/survival /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/Bruhhh/datapacks
+cp -r /home/minecraft/mc-servers/datapacks/survival/*.zip /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/Bruhhh/datapacks
 echo "Moved survival datapacks!"
-mv /home/minecraft/mc-servers/datapacks/creative /home/minecraft/servers/Purpurfall_V6/PurpurCreative/Bruhhh2/datapacks
+mv /home/minecraft/mc-servers/datapacks/creative/*.zip /home/minecraft/servers/Purpurfall_V6/PurpurCreative/Bruhhh2/datapacks
 echo "Moved creative datapacks!"
 
 # Moving .sh files to the proper places
-mv /home/minecraft/mc-servers/startCreative.sh /home/minecraft/startCreative.sh
-mv /home/minecraft/mc-servers/startSurvival.sh /home/minecraftstartSurvival.sh
-mv /home/minecraft/mc-servers/startWaterfall.sh /home/minecraftstartWaterfall.sh
+sudo mv /home/minecraft/mc-servers/startCreative.sh /home/minecraft/startCreative.sh
+sudo mv /home/minecraft/mc-servers/startSurvival.sh /home/minecraftstartSurvival.sh
+sudo mv /home/minecraft/mc-servers/startWaterfall.sh /home/minecraftstartWaterfall.sh
 
 echo "Sorting permissions..."
 sudo chown -R minecraft /home/minecraft
