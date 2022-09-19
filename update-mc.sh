@@ -59,7 +59,7 @@ echo "Moved creative .jar!"
 
 # Moving plugins across
 echo "Moving plugins..."
-mv /home/minecraft/mc-servers/plugins/waterfall/*.jar /home/minecraft/servers/Purpurfall_V6/Waterfall/plugins/*.jar
+mv /home/minecraft/mc-servers/plugins/waterfall/*.jar /home/minecraft/servers/Purpurfall_V6/Waterfall/plugins
 echo "Moved waterfall plugins!"
 mv /home/minecraft/mc-servers/plugins/survival/*.jar /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/plugins
 echo "Moves survival plugins!"
