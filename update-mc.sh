@@ -24,7 +24,7 @@ rm /home/minecraft/servers/Purpurfall_V6/PurpurCreative/Bruhhh2/datapacks/*.zip
 # Github cloning
 echo "Fetching new files..."
 git clone https://github.com/TypicalDan/mc-servers /home/minecraft/mc-servers
-chown -R :mc /home/minecraft/mc-servers
+sudo chown -R :mc /home/minecraft/mc-servers
 echo "Finished downloading!"
 
 # Finding .jar names
