@@ -14,12 +14,12 @@ sudo rm /home/minecraft/servers/Purpurfall_V6/Waterfall/waterfall.jar
 sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/purpur.jar
 sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurCreative/purpur.jar
 echo "Cleared old jars!"
-sudo rm /home/minecraft/servers/Purpurfall_V6/Waterfall/plugins -r
-sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/plugins -r
-sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurCreative/plugins -r
+sudo rm /home/minecraft/servers/Purpurfall_V6/Waterfall/plugins/*.jar
+sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/plugins/*.jar
+sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurCreative/plugins/*.jar
 echo "Cleared old plugins!"
-sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/Bruhhh/datapacks -r
-sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurCreative/Bruhhh2/datapacks -r
+sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurSurvival/Bruhhh/datapacks/*.zip
+sudo rm /home/minecraft/servers/Purpurfall_V6/PurpurCreative/Bruhhh2/datapacks/*.zip
 
 # Github cloning
 echo "Fetching new files..."
