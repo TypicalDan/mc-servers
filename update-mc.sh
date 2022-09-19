@@ -24,7 +24,7 @@ rm /home/minecraft/servers/Purpurfall_V6/PurpurCreative/Bruhhh2/datapacks/*.zip
 # Github cloning
 echo "Fetching new files..."
 git clone https://github.com/TypicalDan/mc-servers /home/minecraft/mc-servers
-chown -R minecraft /home/minecraft/mc-servers
+chown -R :mc /home/minecraft/mc-servers
 echo "Finished downloading!"
 
 # Finding .jar names
@@ -78,7 +78,6 @@ sudo mv /home/minecraft/mc-servers/startSurvival.sh /home/minecraftstartSurvival
 sudo mv /home/minecraft/mc-servers/startWaterfall.sh /home/minecraftstartWaterfall.sh
 
 echo "Sorting permissions..."
-sudo chown -R minecraft /home/minecraft
-sudo chown -R dan /home/minecraft
+sudo chown -R :mc /home/minecraft/servers/Purpurfall_V6
 
 echo "All done!"
