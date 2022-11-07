@@ -1,0 +1,104 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 100,
+  "ID": 3,
+  "DimensionType": 1,
+  "IsFilled": true,
+  "Depth": 1,
+  "PackDepth": 0,
+  "ParentID": 0,
+  "RootID": 0,
+  "Origin": {
+    "x": -910,
+    "y": 66,
+    "z": 1364
+  },
+  "Orientation": 0,
+  "ChildIDs": [],
+  "Links": [
+    {
+      "source": {
+        "x": -910,
+        "y": 66,
+        "z": 1364,
+        "dimension": 3
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -910,
+          "y": 66,
+          "z": 1364,
+          "dimension": 0
+        },
+        "linkType": 7
+      },
+      "orientation": 0,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -1258,
+        "y": 65,
+        "z": 1490,
+        "dimension": 3
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 2,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -746,
+        "y": 53,
+        "z": 1212,
+        "dimension": 3
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": [
+        {
+          "x": -749,
+          "y": 58,
+          "z": 1207
+        }
+      ]
+    },
+    {
+      "source": {
+        "x": -749,
+        "y": 58,
+        "z": 1207,
+        "dimension": 3
+      },
+      "parent": {
+        "x": -746,
+        "y": 53,
+        "z": 1212
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": []
+    }
+  ],
+  "Tails": []
+}

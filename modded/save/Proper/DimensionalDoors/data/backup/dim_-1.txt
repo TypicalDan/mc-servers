@@ -1,0 +1,19 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 100,
+  "ID": -1,
+  "DimensionType": 0,
+  "IsFilled": false,
+  "Depth": 0,
+  "PackDepth": 0,
+  "ParentID": -1,
+  "RootID": -1,
+  "Origin": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Orientation": 0,
+  "ChildIDs": [],
+  "Links": [],
+  "Tails": []
+}

@@ -1,0 +1,107 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 100,
+  "ID": 2,
+  "DimensionType": 2,
+  "IsFilled": true,
+  "Depth": 1,
+  "PackDepth": 0,
+  "ParentID": 0,
+  "RootID": 0,
+  "DungeonData": {
+    "Weight": 100,
+    "IsOpen": true,
+    "IsInternal": true,
+    "SchematicPath": "/schematics/ruins/hub_fortRuins_open_100.schematic",
+    "SchematicName": "hub_fortRuins_open_100",
+    "DungeonTypeName": "HUB",
+    "DungeonPackName": "RUINS"
+  },
+  "Origin": {
+    "x": -1047,
+    "y": 64,
+    "z": 1396
+  },
+  "Orientation": 0,
+  "ChildIDs": [],
+  "Links": [
+    {
+      "source": {
+        "x": -1047,
+        "y": 64,
+        "z": 1396,
+        "dimension": 2
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -918,
+          "y": 64,
+          "z": 1397,
+          "dimension": 0
+        },
+        "linkType": 7
+      },
+      "orientation": 0,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -1073,
+        "y": 55,
+        "z": 1401,
+        "dimension": 2
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 3,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -1047,
+        "y": 64,
+        "z": 1398,
+        "dimension": 2
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -1047,
+        "y": 64,
+        "z": 1394,
+        "dimension": 2
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": []
+    }
+  ],
+  "Tails": []
+}
